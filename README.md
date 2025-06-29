@@ -1,3 +1,5 @@
+Slopped this together, worked flawlessly on a production database.
+
 # Firebase Export Script
 
 A comprehensive Python script for exporting all core data from Firebase projects, including Firestore, Authentication, Storage, and Realtime Database.
