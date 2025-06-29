@@ -1,5 +1,3 @@
-Slopped this together, worked flawlessly on a production database.
-
 # Firebase Export Script
 
 A comprehensive Python script for exporting all core data from Firebase projects, including Firestore, Authentication, Storage, and Realtime Database.
@@ -22,8 +20,36 @@ A comprehensive Python script for exporting all core data from Firebase projects
 - Service account key with appropriate permissions
 
 ### Python Dependencies
+
+Create a `requirements.txt` file with the following dependencies:
+
+```txt
+# Firebase Export Script Requirements
+# Core Firebase Admin SDK
+firebase-admin>=6.2.0
+# Required dependencies for Firebase Admin SDK
+google-cloud-firestore>=2.11.0
+google-cloud-storage>=2.9.0
+google-auth>=2.17.0
+google-api-core>=2.11.0
+google-cloud-core>=2.3.0
+# Additional dependencies that may be needed
+grpcio>=1.53.0
+protobuf>=4.21.0
+requests>=2.28.0
+urllib3>=1.26.0
+# Optional: for better error handling and logging
+colorlog>=6.7.0
+```
+
+Install all dependencies:
 ```bash
-pip install firebase-admin
+pip install -r requirements.txt
+```
+
+Or install manually:
+```bash
+pip install firebase-admin google-cloud-firestore google-cloud-storage
 ```
 
 ### Firebase Permissions
