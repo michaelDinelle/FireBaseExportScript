@@ -19,4 +19,4 @@ urllib3>=1.26.0
 # asyncio is built-in to Python 3.7+
 
 # Optional: for better error handling and logging
-colorlog>=6.7.0 w
+colorlog>=6.7.0
